@@ -1,0 +1,77 @@
+.global-classes-dialog .mat-dialog-container {
+
+  min-width: 800px !important;
+  height: auto;
+  overflow: hidden;
+
+  .global-class-cell {
+    border-bottom: 1px solid #e5e5e5;
+    cursor: pointer;
+  }
+
+  .global-class-cell:hover {
+    background-color: #dcdcdc;
+  }
+  
+  .class-list{
+    margin-top: -20px;
+    z-index: 1;
+  }
+
+  .selectedClass {
+    background-color: #dcdcdc;
+  }
+
+  .border-left {
+    border-left: 1px solid #dcdcdc;
+  }
+
+  .modeler-content-right {
+    width: 250px;
+    padding-left: 12px;
+
+    .binding-form-field{
+      margin-top: 11px;
+      max-width: 100px;
+    }
+
+    .vertical-center-box {
+      position: relative;
+
+      .vertical-center {
+        left: 50%;
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        transform: translate(-50%, -50%);
+      }
+    }
+
+    .global-class-cell {
+      padding-left: 12px;
+      border-bottom: 1px solid #c9c9c9;
+    }
+
+    .table {
+      display: table;
+      height: 100%;
+
+      .table-cell {
+        display: table-cell;
+        vertical-align: middle;
+        height: 100%;
+      }
+    }
+  }
+}
+
+.mat-dialog-container {
+  padding: 12px;
+
+  .mat-toolbar {
+    flex: 1 0 auto;
+    min-height: initial;
+  }
+
+}
+
